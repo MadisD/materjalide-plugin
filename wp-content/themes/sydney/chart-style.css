@@ -1,0 +1,15 @@
+td {
+    border: none;
+}
+tr {
+    border: none;
+}
+
+.drill-icon {
+    font-size: 30px;
+    color: green;
+}
+
+#chart-container {
+    text-align: center;
+}

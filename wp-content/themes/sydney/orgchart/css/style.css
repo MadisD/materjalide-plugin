@@ -1,0 +1,65 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    /*color: #333333;*/
+}
+
+/*#chart-container {*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*height: 1200px;*/
+    /*width: calc(100% - 24px);*/
+    /*border: 2px dashed #aaa;*/
+    /*border-radius: 5px;*/
+    /*overflow: auto;*/
+    /*text-align: center;*/
+/*}*/
+
+.orgchart .node .content {
+    height: 100%;
+}
+
+.orgchart .node .title {
+    white-space: normal;
+    height: 100%;
+    min-height: 35px;
+    padding: 5px;
+}
+
+.orgchart .node {
+    width: 180px;
+}
+
+.orgchart .tipp .title {
+    background-color: #006699;
+}
+.orgchart .tipp .content {
+    border-color: #006699;
+}
+
+.orgchart .leht .title {
+    background-color: #009933;
+}
+.orgchart .leht .content {
+    border-color: #009933;
+    padding-bottom: 15px;
+}
+
+.orgchart {
+    transform: none;
+    background-image: none;
+}
+
+.content-table {
+    font-size: 16px;
+}

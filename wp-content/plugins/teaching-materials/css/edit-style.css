@@ -1,0 +1,55 @@
+/*body {*/
+/*background: #f1f1f1;*/
+/*}*/
+
+ul {
+    margin-left: 15px;
+}
+
+.main {
+    padding: 35px 50px 25px 45px;
+}
+
+.cats-right-menu {
+    border: 1px solid darkgray;
+    margin-left: 25px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.btn-cat {
+    margin-left: 10px;
+}
+
+.order-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    color: #337ab7;;
+}
+
+.group {
+    padding-bottom: 5px;
+}
+
+.main-cat {
+    font-size: 20px;
+}
+
+.cat-table {
+    background: #fff;
+    margin-top: 15px;
+}
+
+.child-depth-marker {
+    margin: 0 5px 0 0;
+    padding: 0 0 4px 0;
+    display: inline-block;
+    width: 20px;
+    border: none;
+    border-top: 1px solid black;
+}
