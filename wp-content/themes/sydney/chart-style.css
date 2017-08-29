@@ -1,6 +1,7 @@
 td {
     border: none;
 }
+
 tr {
     border: none;
 }
@@ -8,9 +9,14 @@ tr {
 .drill-icon {
     font-size: 30px;
     color: green;
+    cursor: pointer;
 }
 
 #chart-container {
     text-align: center;
     margin-top: 100px;
+}
+
+.pointer-node, .drill-icon {
+    cursor: pointer;
 }

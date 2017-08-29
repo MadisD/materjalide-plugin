@@ -205,6 +205,15 @@ add_filter('wp_enqueue_scripts', 'insert_jquery');
                                             }
                                         });
 
+                                        var btn = $('<a>', {
+                                            'class': 'pointer-node',
+                                            'click': function () {
+                                                $('#chart-container').html('');
+                                                initContainer('?task=content&parent_id=' + data.id + '&height=' + data.height);
+                                            }
+                                        });
+
+                                        $(node).find('.title').wrap(btn);
                                         $(node).append(drillDownIcon);
 
                                     }
@@ -217,6 +226,15 @@ add_filter('wp_enqueue_scripts', 'insert_jquery');
                                                 initContainer('?task=root');
                                             }
                                         });
+
+                                        var btn = $('<a>', {
+                                            'class': 'pointer-node',
+                                            'click': function () {
+                                                $('#chart-container').html('');
+                                                initContainer('?task=root');
+                                            }
+                                        });
+                                        $(node).find('.title').wrap(btn);
                                         $(node).prepend(drillUpIcon);
                                     }
                                 }
